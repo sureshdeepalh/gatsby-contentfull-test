@@ -1,0 +1,11 @@
+{
+          "name": "Tutorial Project",
+          "schemaPath": "./gatsby-config.js",
+          "extensions": {
+                    "endpoints": {
+                              "Default GraphQL Endpoint": {
+                                        "url": "http://localhost:8000/___graphql"
+                              }
+                    }
+          }
+}

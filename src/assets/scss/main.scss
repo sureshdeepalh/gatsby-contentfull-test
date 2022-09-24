@@ -1,0 +1,30 @@
+body {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.Navbar {
+  background-color: azure;
+  box-shadow: 0 0 4px -2px #818181;
+  margin-bottom: 1rem;
+  ul {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    a {
+      padding: 1rem;
+      display: inline-block;
+      text-decoration: none;
+      color: #000;
+    }
+  }
+}
+.featuredRecipes {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  h3 {
+    width: 100%;
+    text-align: center;
+  }
+}
